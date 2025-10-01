@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modid": "plantbasedfat",
+  "name": "PlantBasedFat",
+  "authors": [
+    "Necromunger",
+    "Eiymii"
+  ],
+  "description": "Adds plant based fat as an alternative to animal fat",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": ""
+  }
+}
