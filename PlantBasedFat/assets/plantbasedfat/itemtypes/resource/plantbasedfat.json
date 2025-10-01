@@ -15,7 +15,8 @@
 		},
 		groundStorageTransform: {
 			rotation: { x: 0, y: 5, z: 0 }
-		}
+		},
+		canSealCrock: true
 	},
 	maxstacksize: 64,
 	materialDensity: 620,

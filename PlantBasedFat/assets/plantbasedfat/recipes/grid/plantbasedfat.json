@@ -1,0 +1,13 @@
+[
+    {
+        ingredientPattern: "S,F,R",
+        ingredients: {
+            "R": { type: "item", code: "game:rock-*", allowedVariants: ["andesite", "granite", "peridotite", "basalt"] },
+            "F": { type: "item", code: "game:grain-sunflower", quantity: 3 },
+            "S": { type: "block", code: "game:stone-*", allowedVariants: ["andesite", "granite", "peridotite", "basalt"] }
+        },
+        width: 1,
+        height: 3,
+        output: { type: "item", code: "plantbasedfat:plantbasedfat"  }
+    }
+]
