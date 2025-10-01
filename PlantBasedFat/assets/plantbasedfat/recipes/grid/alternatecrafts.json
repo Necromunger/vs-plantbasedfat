@@ -1,0 +1,281 @@
+[
+	{
+		ingredientPattern: "HIF,CPR,PPP",
+		ingredients: {
+			"R": { type: "item", code: "game:resin", quantity: 2 },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 40 },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 3 },
+			"I": { type: "item", code: "game:rod-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:fruitpress-ns", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,_C_,RSF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 80 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 50 },
+			"R": { type: "item", code: "game:resin" },
+			"S": { type: "block", code: "game:log-placed-*-ud", quantity: 2 },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:windmillrotor-north", quantity: 1 }
+	},
+	{
+		ingredientPattern: "_H_,_C_,RSF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 80 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 50 },
+			"R": { type: "item", code: "game:resin" },
+			"S": { type: "block", code: "game:logsection-placed-*-ud", quantity: 2 },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:windmillrotor-north", quantity: 1 }
+	},
+	{
+		ingredientPattern: "H_,C_,SF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood" },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:woodenaxle-ud", quantity: 2 }
+	},
+	{
+		ingredientPattern: "H_,C_,SF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+			"S": { type: "block", code: "game:logsection-placed-*-ud" },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:woodenaxle-ud", quantity: 2 }
+	},
+	{
+		ingredientPattern: "HX_,PCP,RSF",
+		ingredients: {
+			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10 },
+			"S": { type: "block", code: "game:log-placed-*-ud" },
+			"R": { type: "item", code: "game:resin" },
+			"P": { type: "item", code: "game:stick" },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:angledgears-s", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HX_,PCP,RSF",
+		ingredients: {
+			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10 },
+			"S": { type: "block", code: "game:logsection-placed-*-ud" },
+			"R": { type: "item", code: "game:resin" },
+			"P": { type: "item", code: "game:stick" },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:angledgears-s", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HCR,PAP,_F_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 50 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 20 },
+			"R": { type: "item", code: "game:resin", quantity: 4 },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 4 },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" },
+			"A": { type: "block", code: "game:woodenaxle-ud" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:woodentoggle-ns", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HCX,PAS,RF_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 15 },
+			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 25 },
+			"P": { type: "item", code: "game:plank-*", quantity: 8 },
+			"A": { type: "block", code: "game:log-placed-*-ud" },
+			"S": { type: "item", code: "game:stick", quantity: 8 },
+			"R": { type: "item", code: "game:resin", quantity: 2 },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:clutch-north", quantity: 1 }
+	},
+		{
+		ingredientPattern: "HCX,PAS,RF_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 15 },
+			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 25 },
+			"P": { type: "item", code: "game:plank-*", quantity: 8 },
+			"A": { type: "block", code: "game:logsection-placed-*-ud" },
+			"S": { type: "item", code: "game:stick", quantity: 8 },
+			"R": { type: "item", code: "game:resin", quantity: 2 },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:clutch-north", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HCX,GPG,RF_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 15 },
+			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 25 },
+			"G": { type: "block", code: "game:angledgears-s" },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 8 },
+			"R": { type: "item", code: "game:resin", quantity: 2 },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:transmission-ns", quantity: 1 }
+	},
+
+	{
+		ingredientPattern: "BF",
+		ingredients: {
+			"B": { type: "block", code: "game:bowl-*-fired", name: "color" },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "game:oillamp-{color}-up"  }
+	},
+
+	{
+		ingredientPattern: "DBM	BFB	MBD",
+		enabled: false,
+		ingredients: {
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" },
+			"M": { 
+				type: "item", 
+				code: "game:*-cooked", 
+				allowedVariants: ["redmeat", "poultry", "fish" ],
+			},
+			"B": { 
+				type: "item", 
+				code: "game:fruit-*"
+			},
+			"D": { 
+				type: "item", 
+				code: "game:fruit-*", 
+				quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:pemmican-raw-basic", quantity: 1  }
+	},
+	{
+		ingredientPattern: "DBM	BFB	MBD",
+		enabled: false,
+		ingredients: {
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" },
+			"M": { 
+				type: "item", 
+				code: "game:*-cured", 
+				allowedVariants: ["redmeat", "poultry", "fish" ],
+			},
+			"B": { 
+				type: "item", 
+				code: "game:fruit-*"
+			},
+			"D": { 
+				type: "item", 
+				code: "game:fruit-*", 
+				quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:pemmican-raw-salted", quantity: 1  }
+	},
+	{
+		// This recipe looks odd, because the sealing happens in code in BlockCrock.cs
+		ingredientPattern: "C,F",
+		ingredients: {
+			"C": { type: "block", code: "game:crock-*-fired", name: "color" },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:crock-{color}-fired", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "_FT	BLT	_FT",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-long-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:leather-normal-plain" },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:bow-long", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_FT	BLT	_FT",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-long-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["small", "medium"] },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:bow-long", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "Z	C",
+		ingredients: {
+			"Z": { type: "item", code: "plantbasedfat:plantbasedfat", quantity: 1 },
+			"C": { type: "block", code: "game:torch-crude-*-up", allowedVariants: ["extinct", "lit" ], quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		enabled: false,
+		output: { type: "block", code: "game:torch-basic-extinct-up", quantity: 1  }
+	},
+	{
+		ingredientPattern: "F	B	S",
+		ingredients: {
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat", quantity: 1 },
+			"B": { type: "item", code: "game:bandage-*", quantity: 1 },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 3,
+		enabled: false,
+		output: { type: "block", code: "game:torch-cloth-extinct-up", quantity: 1  }
+	},
+]
