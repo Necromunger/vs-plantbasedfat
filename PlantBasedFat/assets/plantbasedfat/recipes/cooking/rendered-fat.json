@@ -1,0 +1,98 @@
+[
+	{
+		"code": "rendered plantbasedfat1",
+		"isFood": "true",
+		"perishableProps": {
+			"type": "Harden",
+			"freshHours": { "avg": 6 },
+			"transitionHours": { "avg": 0.01 },
+			"transitionRatio": 1,
+			"transitionedStack": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"shape": { "base": "block/food/meal/liquid" },
+		"ingredients": [
+			{
+				"code": "plantbasedfat",
+				"validStacks": [
+					{ "type": "item", "code": "plantbasedfat:plantbasedfat" }
+				],
+				"minQuantity": 1,
+				"maxQuantity": 1,
+				"portionSizeLitres": 0.5
+			}
+		],
+		"cooksInto": { "type": "Item", "code": "game:fat-rendered", "quantity": 1 }
+	},
+	{
+		"code": "rendered plantbasedfat2",
+		"isFood": "true",
+		"perishableProps": {
+			"type": "Harden",
+			"freshHours": { "avg": 6 },
+			"transitionHours": { "avg": 0.01 },
+			"transitionRatio": 1,
+			"transitionedStack": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"shape": { "base": "block/food/meal/liquid" },
+		"ingredients": [
+			{
+				"code": "plantbasedfat",
+				"validStacks": [
+					{ "type": "item", "code": "plantbasedfat:plantbasedfat" }
+				],
+				"minQuantity": 2,
+				"maxQuantity": 2,
+				"portionSizeLitres": 0.5
+			}
+		],
+		"cooksInto": { "type": "Item", "code": "game:fat-rendered", "quantity": 2 }
+	},
+	{
+		"code": "rendered plantbasedfat3",
+		"isFood": "true",
+		"perishableProps": {
+			"type": "Harden",
+			"freshHours": { "avg": 6 },
+			"transitionHours": { "avg": 0.01 },
+			"transitionRatio": 1,
+			"transitionedStack": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"shape": { "base": "block/food/meal/liquid" },
+		"ingredients": [
+			{
+				"code": "plantbasedfat",
+				"validStacks": [
+					{ "type": "item", "code": "plantbasedfat:plantbasedfat" }
+				],
+				"minQuantity": 3,
+				"maxQuantity": 3,
+				"portionSizeLitres": 0.5
+			}
+		],
+		"cooksInto": { "type": "Item", "code": "game:fat-rendered", "quantity": 3 }
+	},
+	{
+		"code": "rendered plantbasedfat4",
+		"isFood": "true",
+		"perishableProps": {
+			"type": "Harden",
+			"freshHours": { "avg": 6 },
+			"transitionHours": { "avg": 0.01 },
+			"transitionRatio": 1,
+			"transitionedStack": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"shape": { "base": "block/food/meal/liquid" },
+		"ingredients": [
+			{
+				"code": "plantbasedfat",
+				"validStacks": [
+					{ "type": "item", "code": "plantbasedfat:plantbasedfat" }
+				],
+				"minQuantity": 4,
+				"maxQuantity": 4,
+				"portionSizeLitres": 0.5
+			}
+		],
+		"cooksInto": { "type": "Item", "code": "game:fat-rendered", "quantity": 4 }
+	}
+]
