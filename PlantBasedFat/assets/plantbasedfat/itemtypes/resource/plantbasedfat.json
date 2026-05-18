@@ -10,12 +10,11 @@
 		"displaycaseable": true,
 		"shelvable": true,
 		"onDisplayTransform": {
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 0.55
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 }
 		},
 		"groundStorageTransform": {
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 0.55
+			"rotation": { "x": 0, "y": 5, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 }
 		},
 		"canSealCrock": true,
 		"inContainerTexture": { "base": "plantbasedfat:item/resource/plantbasedfat" }
@@ -34,9 +33,10 @@
 		"scale": 1.29
 	},
 	"tpHandTransform": {
-		"translation": { "x": -1.1, "y": -1.2, "z": -1.5 },
-		"rotation": { "x": 90, "y": -92, "z": -180 },
-		"scale": 0.43
+		"translation": { "x": -0.6, "y": 0, "z": -0.55 },
+		"rotation": { "x": 90, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 0.9
 	},
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0.17, "z": 0 },
